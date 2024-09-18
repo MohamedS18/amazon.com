@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Amazon-Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/checkout.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="index.html">
+                    <button class="amazon-logo-button">
+                        <img class="checkout-logo" src="images/amazon-logo.png" />
+                    </button>
+                </a>
+            </div>
+            <div class="nav-middle">
+                <p class="checkout-heading">
+                    CheckOut</p>
+                <span>
+                    (<p class="top-checkout-count">0 </p>
+                    items)
+                </span>
+            </div>
+            <div class="nav-right">
+                <img src="images/icons/checkout-lock-icon.png" />
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="empty_cart">
+            <div class="inner-container">
+                <img class="empty-cart-image" src="images/icons/empty_cart.svg">
+            </div>
+            <div style="padding:20px">
+                <span style="display:block; margin:5px 5px;">Your Cart is empty</span>
+                <a href="index.html"><button class="continue-shopping">Continue Shopping</button></a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="all-products">
+
+            </div>
+
+            <div class="order-summary">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+<script type="module" src="scripts/checkout.js"></script>
+
+
+</html>

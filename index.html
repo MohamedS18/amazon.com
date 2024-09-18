@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Amazon-Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="icon" href="data:,">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <button class="amazon-logo-button">
+                <img class="homepage-logo" src="images/amazon-logo-white.png">
+            </button>
+        </div>
+        <div class="nav-middle">
+            <input class="homepage-search" type="text" placeholder="  Search">
+            <button class="search-button"><img class="search-button-image" src="images/icons/search-icon.png"></button>
+        </div>
+        <div class="nav-right">
+            <a href="orders.html"><button class="return-button">
+                <div class="return-text">
+                    <p style="margin: 0;">Return</p>
+                </div>
+                <div class="orders-text">& Orders</div>
+            </button></a>
+            <a href="checkout.html">
+            <button class="cart-button">
+                <div class="cart-count-container">0</div>
+                <img class="cart-image" src="images/icons/cart-icon.png">
+            </button>
+        </a>
+        </div>
+
+
+    </nav>
+    <div class="all-item-container">      
+
+        <div class="outer-container" data-id="aad29d11-ea98-41ee-9285-b916638cac4a">
+            <div class="product-image-container">
+                <img class="product-image" src="images/products/round-sunglasses-black.jpg">
+            </div>
+            <div class="item-container">
+                <p class="item-name">Round Sunglasses</p>
+                <div class="ratings-container">
+                    <img class="ratings-image" src="images/ratings/rating-45.png">
+                    <p class="no-of-reviews">30</p>
+                </div>
+
+                <h3 class="price">₹1560</h3>
+                <select class="drop-down-item">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                
+            </div>
+            <div class="product-spacer">
+            </div>
+            <div class="cart-container">
+                <button class="add-to-cart-button">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="scripts/amazon-home.js"></script>
+</body>
+
+</html>
